@@ -1,0 +1,46 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin banner-text-styles {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+@mixin card-h3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  top: 153px;
+  color: $secondary-color;
+  width: 100%;
+  height: 73px;
+  background: linear-gradient(0deg, $gradient-color 13%, rgba(0, 212, 255, 0) 70%);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 22px 22px 20px;
+  z-index: 1;
+}
+
+@mixin error-large {
+  color: $primary-color;
+  font-weight: 500;
+  margin: 0px 0px 139px 0px;
+}
+
+@mixin error-small {
+  margin: 0px 0px 113px 0px;
+}
+
+@mixin slick {
+  width: 24px!important;
+  height: 24px!important;
+  z-index: 1!important;
+}
